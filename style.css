@@ -80,6 +80,7 @@ margin-bottom:20px;
     color:white;
     border-radius: 5px;
     border:none;
+  
 }
 .food__card{
     width:100%;
@@ -106,6 +107,34 @@ margin-bottom:20px;
 }
 .explore__menu__description{
     margin:30px 0px 20px 0px;   /*top right bottom left*/
+}
+.restaurant__section{
+    margin-top: 20px;
+}
+.restaurant__section__text{
+    font-size: 35px;
+    margin-bottom:20px;
+}
+.restaurant__row__one, .restaurant__row__two{
+    display:flex;
+    gap:5px
+}
+.restaurant__2{
+    width:120%;
+}
+.restaurant__row__one{
+    align-items: baseline;
+}
+
+.restaurant__row__two{
+    flex-direction: row-reverse;
+}
+.restaurant__1,.restaurant__4{
+    width:100%;
+}
+.restaurant__img1,.restaurant__img2,.restaurant__img3,.restaurant__img4{
+    width:100%;
+    border-radius: 5px;
 }
 @media (min-width:768px){
     .navbar{
@@ -157,7 +186,33 @@ margin-bottom:20px;
         display: flex;
         justify-content: center;
     }
+    .restaurant__row__one,.restaurant__row__two{
+     
+        display:flex;
+    }
+    .restaurant__1,.restaurant__2,.restaurant__3,.restaurant__4{
+        width:100%;
+    }
+    .restaurant__img1,.restaurant__img2,.restaurant__img3,.restaurant__img4{
+        width:100%;
+    }
+    .restaurant__section{
+        display:flex;
+    }
     
+    .restaurant__text__container{
+                width:100%;
+    }
+    .restaurant__list__container{
+        width:100%;
+    }
+    .restaurant__3{
+        width:100%;
+    }
+    .restaurant__4{
+        width:50%;
+    }
+
     
 }
 @media (min-width:1020px){
@@ -183,7 +238,6 @@ margin-bottom:20px;
     }
     .hero__text{
         font-size: 45px;
-
     }
     .explore__text{
         font-size: 40px;
